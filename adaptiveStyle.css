@@ -1,0 +1,557 @@
+:root {
+    --primary-light: #F5F8FF;
+    --black: #282828;
+    --blue-linear: linear-gradient(23deg, #2A5CF6 0%, #2A5CF6 0.01%, #7191F4 100%);
+    --white: #fff;
+    --gray: #A9A9A9;
+    --dark: #525252;
+    --gray: #A9A9A9;
+    --gray-light: #EEE;
+    --dark-light: #808080;
+}
+
+@media screen and (max-width: 428px) {
+    .head {
+        display: none;
+    }
+
+    .menu_burger {
+        display: block;
+    }
+
+    /* Регистрация и поиск с кнопкой каталога */
+
+    .burger {
+        display: none;
+    }
+
+    .content_regist {
+        width: 380px;
+        padding: 12px 24px 8px 24px;
+        margin: 0 auto;
+    }
+
+    .blick_btn_catalog {
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .back_search {
+        display: none;
+    }
+
+    .back_search2 {
+        width: 362px;
+        height: 20px;
+        display: flex;
+        padding: 2px 16px 2px 2px;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        border-radius: 56px;
+        background: var(--blue-linear);
+    }
+
+    .back_search2 input {
+        width: 280px;
+        height: 12px;
+        display: flex;
+        padding: 4px 22px 4px 12px;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        border-radius: 58px;
+        background: var(--white);
+    }
+
+    .back_search2 input::placeholder {
+        font-size: 10px;
+        letter-spacing: 0.2px;
+        color: var(--gray);
+    }
+
+    .blick_search a {
+        width: 32px;
+        font-size: 10px;
+        letter-spacing: 0.2px;
+        font-weight: 600;
+    }
+
+    .block_register {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .btn_regis {
+        width: 20px;
+    }
+
+    .btn_regis span {
+        display: none;
+    }
+
+    /* Слайдер */
+
+    .go_slider {
+        width: 377px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FAFAFA;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    }
+
+    .slick-slide {
+        height: 176px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 6px;
+    }
+
+    .go_slider_head {
+        width: 267px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.1px;
+        margin: 24px 0px 4px 27px;
+    }
+
+    .go_slider_list {
+        width: 124px;
+        margin: 0px 0px 4px 45px;
+    }
+
+    .go_slider_list li {
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        line-height: 114%;
+    }
+
+    .btn_slider {
+        width: 80px;
+        height: 9px;
+        display: flex;
+        padding: 6px 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 26px;
+    }
+
+    .btn_slider a {
+        font-size: 8px;
+        letter-spacing: 0.1px;
+    }
+
+    .img_slider1 {
+        width: 66px;
+        height: 49px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .img_slider2 {
+        width: 76px;
+        height: 115px;
+        flex-shrink: 0;
+        position: absolute;
+        bottom: 0;
+        right: 21px;
+    }
+
+    .img_slider3 {
+        width: 83px;
+        height: 96px;
+        flex-shrink: 0;
+        position: absolute;
+        bottom: 0;
+        right: 63px;
+    }
+
+    .img_slider4 {
+        width: 59px;
+        height: 84px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .slick-dots li button:before {
+        content: url('./img/EllipseX8.png');
+    }
+
+    .slick-dots li {
+        margin: 0 0px;
+    }
+
+    .slick-dots {
+        bottom: 18px;
+    }
+
+    .content_blocks {
+        padding: 0px 16px 16px 24px;
+    }
+
+    .blocks {
+        width: 818px;
+        height: 203px;
+        gap: 12px;
+        flex-shrink: 0;
+    }
+
+    .blocks li {
+        width: 124px;
+        height: 186px;
+        align-self: stretch;
+        border-radius: 30px;
+        padding: 8px 14px 0px;
+    }
+
+    .block_head {
+        width: 122px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .block_text {
+        width: 119px;
+        font-size: 10px;
+    }
+
+    .sber {
+        top: 126px;
+        left: -1px;
+    }
+
+    .wb {
+        bottom: 30px;
+        right: 0;
+    }
+
+    .marker {
+        top: 160px;
+        left: 1px;
+    }
+
+    .ozon {
+        bottom: 0px;
+        right: 31px;
+    }
+
+    .bank {
+        width: 118.609px;
+        height: 71.956px;
+        bottom: 1px;
+        left: -10px;
+    }
+
+    .pacat {
+        width: 115px;
+        bottom: 0px;
+        right: 0;
+    }
+
+    .car {
+        width: 85px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .warehouse {
+        width: 145px;
+        bottom: 2px;
+        left: 0px;
+    }
+
+    /* Каталог */
+    .cards_products {
+        padding: 0px 8px;
+    }
+
+    .content_catalog {
+        width: 564px;
+        gap: 8px;
+    }
+
+    .pointer {
+        width: 211px;
+        gap: 8px;
+        margin-left: 16px;
+    }
+
+    .text_prod {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .text_prod_two {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.1px;
+    }
+
+    .cards {
+        width: 400px;
+        height: 550px;
+        gap: 12px;
+    }
+
+    .card:hover {
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+    .card:hover .price_two {
+        display: block;
+    }
+
+    .arrow_right {
+        display: none;
+    }
+
+
+    .img_tree {
+        width: 180px;
+        height: 240px;
+    }
+
+
+    .img_product {
+        width: 148px;
+        height: 224px;
+        align-self: stretch;
+    }
+
+    .card {
+        display: flex;
+        width: 148px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .hard {
+        top: 8px;
+        right: -42px;
+    }
+
+
+    .text {
+        width: 51px;
+        display: inline-flex;
+        padding: 4px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 32px;
+        background: var(--primary-light, #F5F8FF);
+        color: var(--primary, #2A5CF6);
+        font-size: 10px;
+        position: absolute;
+        top: 7px;
+        left: 8px;
+    }
+
+    .dop_info_product {
+        width: 150px;
+    }
+
+    .img_product a img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .text_product {
+        width: 148px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    .price_two {
+        display: block;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .price {
+        display: none;
+    }
+
+    .size_product {
+        display: block;
+    }
+
+    .btn_pay {
+        display: block;
+    }
+
+    .name_info {
+        font-size: 14px;
+    }
+
+    .btn_info1 {
+        gap: 6px;
+    }
+
+    .btn_info1 li {
+        width: 29px;
+        padding: 4px 6px;
+        gap: 10px;
+    }
+
+    .btn_info1 li a {
+        font-size: 10px;
+    }
+
+    .btn_pay a {
+        display: flex;
+        padding: 6px 25px 8px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex: 1 0 0;
+        border-radius: 47px;
+        background: var(--white);
+        box-shadow: 0px 0px 20px 0px rgba(42, 92, 246, 0.30);
+    }
+
+    .btn_pay a span {
+        display: none;
+    }
+
+    /*  О нас */
+
+    .about_us {
+        width: 428px;
+        gap: 12px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .content_about_us {
+        margin-left: 24px;
+    }
+
+    .img_about_us {
+        display: none;
+    }
+
+    .img_about_us_two {
+        display: block;
+        width: 378px;
+        height: 144px;
+        border-radius: 40px;
+        background: url('./img/Rectangle.png'), lightgray 50% / cover no-repeat;
+    }
+
+    .content_about_us p {
+        width: 400px;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.1px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer_mobile {
+        display: block;
+        background: var(--gray-light);
+    }
+
+    .content_footer {
+        display: flex;
+        width: 428px;
+        padding: 24px 24px;
+    }
+
+    .link_footer {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .arrow_input2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 1.5605rem;
+        background: var(--white);
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+        position: absolute;
+        top: 7px;
+        left: 255px;
+    }
+
+    .test_shedow {
+        color: var(--dark-light);
+        font-size: 10px;
+    }
+
+    .head_list {
+        width: 302px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .dropbtn {
+        font-size: 1.125rem;
+        color: var(--black);
+        border: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        min-width: 160px;
+    }
+
+    .dropdown-content a {
+        color: var(--dark);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover svg {
+        transform: rotate(180deg);
+    }
+
+    .card_year {
+        display: none;
+    }
+
+    .card_year_mobile {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        padding-bottom: 24px;
+        background: var(--gray-light);
+    }
+
+}
