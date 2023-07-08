@@ -406,6 +406,7 @@ a {
 
 .blocks {
     width: 1281px;
+    margin: 0 auto;
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
