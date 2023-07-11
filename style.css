@@ -36,7 +36,6 @@ a {
 
 .wrapper {
     width: 100%;
-    aspect-ratio: 1 / 1;
     background: #FBFBFB;
 }
 
@@ -48,13 +47,11 @@ a {
 
 .head {
     width: 100%;
-    aspect-ratio: 1 / 1;
     background: var(--primary-light);
 }
 
 .content_head {
-    max-width: 1271px;
-    aspect-ratio: 1 / 1;
+    width: 1271px;
     padding: 8px 89px 8px 80px;
     margin: 0 auto;
     display: flex;
@@ -96,15 +93,13 @@ a {
 /* Регистрация и поиск с кнопкой каталога */
 
 .search_register {
-    max-width: 100%;
-    aspect-ratio: 1 / 1;
+    width: 100%;
     background: rgba(255, 255, 255, 0.80);
     box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.06);
 }
 
 .content_regist {
-    max-width: 1280px;
-    aspect-ratio: 1 / 1;
+    width: 1280px;
     padding: 10px 80px;
     margin: 0 auto;
 }
